@@ -32,8 +32,13 @@
     text-decoration: underline;
     background-color: transparent !important;
 }
+
+.nav>li>a:focus, .nav>li>a>img{
+    margin-top: 2px;
+    backdrop-filter: transparent;
+}
  
- nav .container ul{
+.nav .container ul{
  
      float: right;
  
@@ -43,8 +48,23 @@
  
  }
  
-  
+.pizzaPart img{
+    margin: auto;
+    padding: auto;
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 60vh;
+    size: fill;
+}
  
+.text {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 12px;
+    font-size: 25px;
+}
  ul li{
  
      display: inline-block;

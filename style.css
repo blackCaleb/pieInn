@@ -292,17 +292,7 @@
  
  }
  
- /*.restt .delivery, .wrapper {
- 
-     background-color: black;
- 
-     width: 300px;
- 
-     padding-right: 30px;
- 
-     color: white;
- 
- }*/
+
  
  .restt {
  
@@ -394,7 +384,7 @@
  #regForm {
     background-color: transparent;
     margin: 100px auto;
-    padding: 40px;
+    padding: 10px;
     width: 70%;
     min-width: 300px;
   }
@@ -405,12 +395,14 @@
     width: 100%;
     font-size: 17px;
     font-family: Raleway;
-    border: 1px solid #aaaaaa;
+    border: 1px solid;
+    background-color: transparent;
+    color: thistle;
   }
   
   /* Mark input boxes that gets an error on validation: */
   input.invalid {
-    background-color: #ffdddd;
+    background-color: transparent;
   }
   
   /* Hide all steps by default: */

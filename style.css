@@ -395,3 +395,22 @@
     display: flex;
 
 }
+
+.container .row  h2{
+    text-align: center;
+    color: thistle;
+    font-size: 40px;
+}
+
+#new-contact label{
+    color: thistle;
+}
+
+.menu{
+    margin-top: 4%;
+}
+
+.menuHeading{
+    text-align: center;
+    color: thistle;
+}

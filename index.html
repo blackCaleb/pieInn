@@ -108,9 +108,60 @@
                 </div>
         </div>
     </div>
-    </div>    
+    </div> 
 
-    <!-- Menu -->
+       <!--Menu  -->
+    <div class="menu">
+      <div class="menuHeading">
+        <h2>
+          <span style="color: green;">M</span>
+          <span style="color: red;">e</span>
+          <span style="color: yellow;">n</span>
+          <span style="color: green;">u</span>
+        </h2>
+        <h3>Please read this menu very well</h3>
+        <p style="color: thistle;">Note: We are currently baking only medium size Pizzas</p>
+      </div>
+      <div class="menuBody">
+        <div style="align-content: center;" class="container px-4">
+          <div class="row gx-5">
+            <div style="color: thistle;" class="col">
+             <div class="p-3  bg-transparent">
+               <h3>Pizza name</h3>
+               <br>
+              <ol>
+                <li>Pizza Margherita</li>
+                <li>Pizza Pepperoni</li>
+                <li>Pizza Capricciosa</li>
+                <li>Pizza Mushroom</li>
+                <li>Pizza Marinara</li>
+                <li>Pizza Seafood</li>
+                <li>Pizza Hawaiian</li>
+                <li>Pizza Vegetariana</li>
+              </ol>
+             </div>
+            </div>
+            <div style="color: thistle;" class="col">
+              <div class="p-3  bg-transparent">
+                <h3>Prices</h3>
+                <br>
+                <ol>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                  <li>1200</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Order -->
     <div id="Order">
         <h2>
             <span style="color: green;">O</span>
@@ -121,34 +172,37 @@
         </h2>
         <div class="order-text">
             <p>Need some Pizza at your door step?</p>
-            <p>Begin here</p>
         </div>
-        <div class="orderForm">
-          <div id="show-contact">
-            <h2></h2>
-        
-            <p>First name: <span class="first-name"></span></p>
-            <p>Last name: <span class="last-name"></span></p>
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6">
+              <div id="show-contact">
+                  <h2></h2>
+              
+                  <p style="color: thistle;">Pizza name: <span class="pizza-name"></span></p>
+                  <p style="color: thistle;">Pizza quantity: <span class="pizza-size"></span></p>
+                  <p style="color: thistle;">Total price:<span class="total-price"></span></p>
+                </div>
+              <h2>Make your order</h2>
+              <form id="new-contact">
+                <div class="form-group">
+                  <label for="new-pizza-name">Pizza name</label>
+                  <input style="background-color: transparent;" type="text" class="form-control" id="new-pizza-name">
+                </div>
+                <div class="form-group">
+                  <label for="new-pizza-name">Pizza quantity</label>
+                  <input style="background-color: transparent; color: thistle;" type="number" class="form-control" id="new-pizza-size">
+                </div>
+                <br>
+                <button type="submit" class="btn">Add to cart</button>
+              </form>
+    
+              <h2>Cart</h2>
+              <ul id="contacts">
+    
+              </ul>
+            </div>
           </div>
-          <h2>Add a contact:</h2>
-          <form id="new-contact">
-            <div class="form-group">
-              <label for="new-first-name">First name</label>
-              <input type="text" class="form-control" id="new-first-name">
-            </div>
-            <div class="form-group">
-              <label for="new-last-name">Last name</label>
-              <input type="text" class="form-control" id="new-last-name">
-            </div>
-
-            <button type="submit" class="btn">Add</button>
-          </form>
-
-          <h2>Contacts:</h2>
-            <ul id="contacts">
-
-            </ul>
-        </div>
         </div>
     </div>
 

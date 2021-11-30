@@ -22,7 +22,8 @@ $(document).ready(function(){
 
         var inputtedPizzaName = $("input#new-pizza-name").val();
         var inputtedPizzaSize = $("input#new-pizza-size").val();
-        var inputtedOrderTotal = $(function(){return("inputtedPizzaSize")*1200});
+        var inputtedOrderTotal = inputtedPizzaSize*1200;
+        console.log(inputtedOrderTotal);
 
 
     var newContact = new Contact(inputtedPizzaName,inputtedPizzaSize,inputtedOrderTotal);
@@ -31,7 +32,7 @@ $(document).ready(function(){
 
         $("input#new-pizza-name").val("");
         $("input#new-pizza-size").val("");
-        $(function(){return("inputtedPizzaSize")*1200});
+        inputtedPizzaSize*1200;
 
         $(".contact").last().click(function(){
             $("#show-contact").show();

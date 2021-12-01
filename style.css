@@ -414,3 +414,17 @@
     text-align: center;
     color: thistle;
 }
+
+.aboutHead{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.aboutTxt{
+    text-align: center;
+    color: thistle;
+}
+
+.container .row .col-sm{
+    cursor: pointer;
+}

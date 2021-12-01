@@ -10,7 +10,7 @@ This is our customer website. It allows one to order a pizza of their choice and
 
 <h2>Installation</h2>
 
-To open this webpage you are required to  copy this link https://blackcaleb.github.io/delaniStudio/ into your browser.
+To open this webpage you are required to  copy this link https://blackcaleb.github.io/pieInn/ into your browser.
 
 
 <h2>Specifications</h2>

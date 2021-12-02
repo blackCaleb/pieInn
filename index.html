@@ -121,13 +121,12 @@
           <span style="color: green;">u</span>
         </h2>
         <h3>Please read this menu very well</h3>
-        <p style="color: thistle;">Note: We are currently baking only medium size Pizzas</p>
       </div>
       <div class="menuBody">
         <div style="align-content: center;" class="container px-4">
           <div class="row gx-5">
             <div style="color: thistle;" class="col">
-             <div class="p-3  bg-transparent">
+             <div style="align-content: center;" class="p-3  bg-transparent">
                <h3>Pizza name</h3>
                <br>
               <ol>
@@ -141,22 +140,6 @@
                 <li>Pizza Vegetariana</li>
               </ol>
              </div>
-            </div>
-            <div style="color: thistle;" class="col">
-              <div class="p-3  bg-transparent">
-                <h3>Prices</h3>
-                <br>
-                <ol>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                  <li>1200</li>
-                </ol>
-              </div>
             </div>
           </div>
         </div>
@@ -190,6 +173,35 @@
                   <label for="new-pizza-name">Pizza name:</label>
                   <input style="background-color: transparent; color: thistle;" type="text" class="form-control" id="new-pizza-name">
                 </div>
+
+                <div class="form-group"  required>
+                  <label for="select">What your preffered size:</label>
+                  <select style="background-color: transparent; color: thistle;" class="form-control" id="big"  required>
+                    <option value="1">Large</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Small</option>
+                  </select>
+                 </div>
+
+                 <div class="form-group"  required>
+                  <label for="select">What your preffered crust:</label>
+                  <select style="background-color: transparent; color: thistle;" class="form-control" id="crust"  required>
+                    <option value="1">Crispy 500/=</option>
+                    <option value="2">Stuffed 600/=</option>
+                    <option value="3">Gluten-free 400/=</option>
+                  </select>
+                 </div>
+
+                 <div class="form-group"  required>
+                  <label for="select">What your preffered topping:</label>
+                  <select style="background-color: transparent; color: thistle;" class="form-control" id="topping"  required>
+                    <option value="1">Broccolini 600/=</option>
+                    <option value="2">Mushroom 800/=</option>
+                    <option value="3">Radicchio 500/=</option>
+                    <option value="4">Black Olives 850/=</option>
+                  </select>
+                 </div>
+
                 <div class="form-group"  required>
                   <label for="select">Wanna Pizza at your door step:</label>
                   <select style="background-color: transparent; color: thistle;" class="form-control" id="delivery"  required>
@@ -205,10 +217,9 @@
                 <button type="submit" class="btn">Add to cart</button>
               </form>
     
-              <h2>Cart</h2>
-              <ul id="contacts">
-    
-              </ul>
+              <h2>Order details</h2>
+              <ol id="contacts" >
+              </ol>
             </div>
           </div>
         </div>
